@@ -1,0 +1,36 @@
+.pagination{
+   ul{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-wrap: wrap;
+   }
+   li{
+      margin-right: 10px;
+
+      border: 1px solid #EB5A1E;
+      color: #EB5A1E;
+      &:last-child{
+         margin-right: 0;
+      }
+   }
+   a{
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      width: 30px;
+      height: 30px;
+     
+      cursor: pointer;
+      
+      
+   }
+   .selected{
+      background-color: #EB5A1E;
+      color: #fff;
+      
+   }
+   .disabled {
+      opacity: 0.5;
+   }
+}
